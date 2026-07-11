@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://malainho.github.io/sitemap.xml
