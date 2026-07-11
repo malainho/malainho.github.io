@@ -16,16 +16,25 @@
   <meta property="og:description" content="Um diálogo filosófico-científico sobre a existência de Deus, a imortalidade da alma e a reencarnação. Obra gratuita de César Manuel Malainho de Oliveira.">
   <meta property="og:locale" content="pt_PT">
   <link rel="stylesheet" href="../style.css">
+  <script>
+    (function(){try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light'){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();
+  </script>
 </head>
 <body>
   <header class="masthead">
     <div class="wrap">
       <a class="home" href="../">A Grande Descoberta</a>
-      <nav class="langbar" aria-label="Language">
-        <a class="active" href="#" aria-current="page">PT</a>
+      <div class="right">
+        <nav class="langbar" aria-label="Language">
+          <a class="active" href="#" aria-current="page">PT</a>
         <a href="../thegreatdiscovery/" hreflang="en">EN</a>
         <a href="../lagrandedecouverte/" hreflang="fr">FR</a>
-      </nav>
+        </nav>
+        <button class="theme-toggle" type="button" onclick="__toggleTheme()" aria-label="Alternar tema claro/escuro" title="Alternar tema claro/escuro">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -432,8 +441,8 @@
       <h3>Descarregar a obra</h3>
       <p>Leitura offline, gratuita, sem registo.</p>
       <div class="dl-row">
-        <a class="dl-btn" href="../files/a_grande_descoberta_e_a_grande_escolha.pdf" download>Ler em PDF <span class="fmt">PDF</span></a>
-        <a class="dl-btn" href="../files/a_grande_descoberta_e_a_grande_escolha.epub" download>Ler em EPUB <span class="fmt">EPUB</span></a>
+        <a class="dl-btn" href="../files/a_grande_descoberta.pdf" download>Ler em PDF <span class="fmt">PDF</span></a>
+        <a class="dl-btn" href="../files/a_grande_descoberta.epub" download>Ler em EPUB <span class="fmt">EPUB</span></a>
       </div>
     </section>
   </main>
@@ -444,5 +453,8 @@
       <p>Distribuição gratuita.</p>
     </div>
   </footer>
+  <script>
+  function __toggleTheme(){var r=document.documentElement;var c=r.getAttribute('data-theme');var d;if(c==='dark'){d=true;}else if(c==='light'){d=false;}else{d=window.matchMedia('(prefers-color-scheme: dark)').matches;}var n=d?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}}
+  </script>
 </body>
 </html>
