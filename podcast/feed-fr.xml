@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>La Grande Découverte</title>
+    <link>https://malainho.github.io/audio-fr/</link>
+    <atom:link href="https://malainho.github.io/podcast/feed-fr.xml" rel="self" type="application/rss+xml"/>
+    <language>fr</language>
+    <copyright>© César Manuel Malainho de Oliveira — CC BY-NC-ND 4.0</copyright>
+    <description>L'œuvre « La Grande Découverte / Le Grand Choix » lue à voix haute, dans son intégralité. Un dialogue entre deux amis — Tom et Roger — aux visions complètement différentes de la vie. Distribution gratuite. Texte intégral : https://malainho.github.io/lagrandedecouverte/</description>
+    <itunes:author>César Manuel Malainho de Oliveira</itunes:author>
+    <itunes:summary>L'œuvre « La Grande Découverte / Le Grand Choix » lue à voix haute, dans son intégralité. Un dialogue entre deux amis — Tom et Roger — aux visions complètement différentes de la vie. Distribution gratuite. Texte intégral : https://malainho.github.io/lagrandedecouverte/</itunes:summary>
+    <itunes:owner>
+      <itunes:name>César Manuel Malainho de Oliveira</itunes:name>
+      <itunes:email>malainho@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://malainho.github.io/podcast/cover-fr.jpg"/>
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Philosophy"/>
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>La Grande Découverte — Lecture intégrale</title>
+      <description>L'œuvre complète lue à voix haute, en français. L'œuvre « La Grande Découverte / Le Grand Choix » lue à voix haute, dans son intégralité. Un dialogue entre deux amis — Tom et Roger — aux visions complètement différentes de la vie. Distribution gratuite. Texte intégral : https://malainho.github.io/lagrandedecouverte/</description>
+      <enclosure url="https://github.com/malainho/malainho.github.io/releases/download/audio/fr.mp3" length="50297440" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/malainho/malainho.github.io/releases/download/audio/fr.mp3</guid>
+      <pubDate>Wed, 15 Jul 2026 12:00:00 GMT</pubDate>
+      <link>https://malainho.github.io/audio-fr/</link>
+      <itunes:duration>01:23:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>

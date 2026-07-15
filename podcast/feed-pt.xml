@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>A Grande Descoberta</title>
+    <link>https://malainho.github.io/audio-pt/</link>
+    <atom:link href="https://malainho.github.io/podcast/feed-pt.xml" rel="self" type="application/rss+xml"/>
+    <language>pt</language>
+    <copyright>© César Manuel Malainho de Oliveira — CC BY-NC-ND 4.0</copyright>
+    <description>A obra "A Grande Descoberta / A Grande Escolha" lida em voz alta, na íntegra. Um diálogo entre dois amigos — Tom e Roger — com visões completamente diferentes sobre a vida. Distribuição gratuita. Texto integral em https://malainho.github.io/agrandedescoberta/</description>
+    <itunes:author>César Manuel Malainho de Oliveira</itunes:author>
+    <itunes:summary>A obra "A Grande Descoberta / A Grande Escolha" lida em voz alta, na íntegra. Um diálogo entre dois amigos — Tom e Roger — com visões completamente diferentes sobre a vida. Distribuição gratuita. Texto integral em https://malainho.github.io/agrandedescoberta/</itunes:summary>
+    <itunes:owner>
+      <itunes:name>César Manuel Malainho de Oliveira</itunes:name>
+      <itunes:email>malainho@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://malainho.github.io/podcast/cover-pt.jpg"/>
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Philosophy"/>
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>A Grande Descoberta — Leitura integral</title>
+      <description>A obra completa lida em voz alta, em português. A obra "A Grande Descoberta / A Grande Escolha" lida em voz alta, na íntegra. Um diálogo entre dois amigos — Tom e Roger — com visões completamente diferentes sobre a vida. Distribuição gratuita. Texto integral em https://malainho.github.io/agrandedescoberta/</description>
+      <enclosure url="https://github.com/malainho/malainho.github.io/releases/download/audio/pt.mp3" length="53909650" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/malainho/malainho.github.io/releases/download/audio/pt.mp3</guid>
+      <pubDate>Wed, 15 Jul 2026 12:00:00 GMT</pubDate>
+      <link>https://malainho.github.io/audio-pt/</link>
+      <itunes:duration>01:29:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
