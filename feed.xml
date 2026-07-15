@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>A Grande Descoberta</title>
+    <link>https://malainho.github.io/</link>
+    <atom:link href="https://malainho.github.io/podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>pt</language>
+    <copyright>© César Manuel Malainho de Oliveira — CC BY-NC-ND 4.0</copyright>
+    <description>A obra "A Grande Descoberta / A Grande Escolha" lida em voz alta, na íntegra, em português, inglês e francês. Um diálogo entre dois amigos — Tom e Roger — com visões completamente diferentes sobre a vida. Distribuição gratuita.</description>
+    <itunes:author>César Manuel Malainho de Oliveira</itunes:author>
+    <itunes:summary>A obra "A Grande Descoberta / A Grande Escolha" lida em voz alta, na íntegra, em português, inglês e francês. Um diálogo entre dois amigos — Tom e Roger — com visões completamente diferentes sobre a vida. Distribuição gratuita.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>César Manuel Malainho de Oliveira</itunes:name>
+      <itunes:email>malainho@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://malainho.github.io/podcast/cover.jpg"/>
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Philosophy"/>
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>A Grande Descoberta — Leitura integral (Português)</title>
+      <description>A obra completa lida em voz alta, em português. Um diálogo entre dois amigos — Tom e Roger — com visões completamente diferentes sobre a vida. Texto integral gratuito em https://malainho.github.io/agrandedescoberta/</description>
+      <enclosure url="https://github.com/malainho/malainho.github.io/releases/download/audio/pt.mp3" length="53909650" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/malainho/malainho.github.io/releases/download/audio/pt.mp3</guid>
+      <pubDate>Wed, 15 Jul 2026 12:00:00 GMT</pubDate>
+      <link>https://malainho.github.io/audio-pt/</link>
+      <itunes:duration>01:29:50</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>The Great Discovery — Full reading (English)</title>
+      <description>The complete work read aloud, in English. A dialogue between two friends — Tom and Roger — with completely different views on life. Free full text at https://malainho.github.io/thegreatdiscovery/</description>
+      <enclosure url="https://github.com/malainho/malainho.github.io/releases/download/audio/en.mp3" length="52964540" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/malainho/malainho.github.io/releases/download/audio/en.mp3</guid>
+      <pubDate>Wed, 15 Jul 2026 11:00:00 GMT</pubDate>
+      <link>https://malainho.github.io/audio-en/</link>
+      <itunes:duration>01:28:16</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>La Grande Découverte — Lecture intégrale (Français)</title>
+      <description>L'œuvre complète lue à voix haute, en français. Un dialogue entre deux amis — Tom et Roger — aux visions complètement différentes de la vie. Texte intégral gratuit : https://malainho.github.io/lagrandedecouverte/</description>
+      <enclosure url="https://github.com/malainho/malainho.github.io/releases/download/audio/fr.mp3" length="50297440" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/malainho/malainho.github.io/releases/download/audio/fr.mp3</guid>
+      <pubDate>Wed, 15 Jul 2026 10:00:00 GMT</pubDate>
+      <link>https://malainho.github.io/audio-fr/</link>
+      <itunes:duration>01:23:49</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
