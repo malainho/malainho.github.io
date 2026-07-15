@@ -190,8 +190,8 @@ a:focus-visible, .lang-card:focus-visible, .dl-btn:focus-visible, .theme-toggle:
 }
 .video-facade:hover .video-play { transform: scale(1.06); }
 .video-play svg { width: 100%; height: 100%; display: block; }
-.video-play .pl-bg { fill: #1a1a2e; opacity: .92; }
-.video-facade:hover .video-play .pl-bg { fill: #cc2b2b; opacity: 1; }
+.video-play .pl-bg { fill: #cc2b2b; opacity: .94; }
+.video-facade:hover .video-play .pl-bg { fill: #e53935; opacity: 1; }
 
 /* Iframe carregado após clique */
 .video-iframe {
