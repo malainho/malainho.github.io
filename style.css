@@ -209,3 +209,21 @@ a:focus-visible, .lang-card:focus-visible, .dl-btn:focus-visible, .theme-toggle:
   .video-frame { border-radius: 10px; }
   .video-play { width: 56px; height: 40px; }
 }
+
+/* ---------- Leitor de áudio ---------- */
+.audio-box {
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  padding: 1.6rem 1.4rem 1.1rem;
+}
+.audio-box audio { width: 100%; display: block; }
+.audio-dl {
+  text-align: center; margin: 1rem 0 0;
+  font-family: 'Poppins', system-ui, sans-serif; font-size: .85rem;
+}
+.audio-dl a { color: var(--muted); text-decoration: none; }
+.audio-dl a:hover { color: var(--ink); text-decoration: underline; }
+@media (max-width: 34rem) {
+  .audio-box { border-radius: 10px; padding: 1.1rem .9rem .8rem; }
+}

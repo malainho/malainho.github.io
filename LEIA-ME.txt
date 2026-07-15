@@ -1,39 +1,44 @@
-ATUALIZAÇÃO DO SITE — Integração dos vídeos
-============================================
+DO VÍDEO PARA O ÁUDIO + PODCAST
+================================
 
-Este zip contém TODOS os ficheiros novos e alterados.
-Basta arrastar tudo do Finder para o GitHub (Add file →
-Upload files) e confirmar com Commit changes — os ficheiros
-existentes serão substituídos pelas versões novas.
+Arrastar TUDO para o GitHub (Add file → Upload files → Commit).
+Nada precisa de ser apagado — as antigas páginas de vídeo
+passam a redirecionar automaticamente para as de áudio.
 
 Conteúdo:
 
-  video-pt/index.html         NOVO  — página de vídeo em português
-  video-en/index.html         NOVO  — página de vídeo em inglês
-  video-fr/index.html         NOVO  — página de vídeo em francês
-  agrandedescoberta/index.html  ALTERADO — ícone de player no cabeçalho
-  thegreatdiscovery/index.html  ALTERADO — ícone de player no cabeçalho
-  lagrandedecouverte/index.html ALTERADO — ícone de player no cabeçalho
-  style.css                   ALTERADO — estilos das páginas de vídeo
-  sitemap.xml                 ALTERADO — 3 páginas de vídeo acrescentadas
+  audio-pt/  audio-en/  audio-fr/   NOVAS — páginas com leitor de áudio
+  video-pt/  video-en/  video-fr/   ALTERADAS — redirecionam para o áudio
+  agrandedescoberta/index.html      ALTERADA — ícone leva ao áudio
+  thegreatdiscovery/index.html      ALTERADA — ícone leva ao áudio
+  lagrandedecouverte/index.html     ALTERADA — ícone leva ao áudio
+  style.css                         ALTERADO — estilos do leitor de áudio
+  sitemap.xml                       ALTERADO — audio-* em vez de video-*
+  podcast/feed.xml                  NOVO — feed RSS do podcast
 
-O que muda para o visitante:
+DUAS COISAS A FAZER NO FEED ANTES DE SUBMETER O PODCAST:
 
-  - Nas três páginas de texto aparece um ícone de player no
-    cabeçalho (entre a barra de línguas e o botão de tema),
-    que leva ao vídeo da mesma língua.
-  - Nas páginas de vídeo, a barra de línguas liga às páginas
-    de vídeo das outras línguas, e o ícone de livro volta ao
-    texto da mesma língua.
-  - O vídeo mostra a miniatura do YouTube e só carrega o
-    player ao clicar (mais rápido, sem cookies antes do clique).
+  1. Editar podcast/feed.xml e substituir EMAIL_AQUI pelo teu
+     e-mail (a Apple exige um e-mail de contacto do dono).
+  2. Colocar a capa em podcast/cover.jpg — imagem QUADRADA,
+     ideal 3000×3000 px, mínimo 1400×1400, JPG ou PNG.
+     Sem a capa, o Spotify e a Apple rejeitam o feed.
 
-Depois de publicar (1–2 minutos), testar:
+SUBMETER O PODCAST (depois dos dois pontos acima):
 
-  https://malainho.github.io/agrandedescoberta/  → ícone player
-  https://malainho.github.io/video-pt/           → vídeo PT
-  https://malainho.github.io/video-en/           → vídeo EN
-  https://malainho.github.io/video-fr/           → vídeo FR
+  Feed: https://malainho.github.io/podcast/feed.xml
 
-Nota: no Google Search Console, podes reenviar o sitemap.xml
-para acelerar a indexação das páginas novas.
+  Spotify → https://creators.spotify.com  (Get Started →
+    Add your podcast → colar o feed)
+  Apple  → https://podcastsconnect.apple.com  (entrar com
+    Apple ID → + → Add a show with an RSS feed)
+
+TESTAR NO SITE (após 1-2 min de publicação):
+
+  https://malainho.github.io/audio-pt/
+  https://malainho.github.io/audio-en/
+  https://malainho.github.io/audio-fr/
+  https://malainho.github.io/video-pt/  (deve saltar para o áudio)
+
+Nota: os vídeos no YouTube não são afetados — continuam no
+canal como via alternativa, simplesmente já não aparecem no site.
