@@ -26,4 +26,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://malainho.github.io/thegreatdiscovery/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://malainho.github.io/lagrandedecouverte/"/>
   </url>
+  <url>
+    <loc>https://malainho.github.io/video-pt/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://malainho.github.io/video-pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://malainho.github.io/video-en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://malainho.github.io/video-fr/"/>
+  </url>
+  <url>
+    <loc>https://malainho.github.io/video-en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://malainho.github.io/video-pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://malainho.github.io/video-en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://malainho.github.io/video-fr/"/>
+  </url>
+  <url>
+    <loc>https://malainho.github.io/video-fr/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://malainho.github.io/video-pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://malainho.github.io/video-en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://malainho.github.io/video-fr/"/>
+  </url>
 </urlset>

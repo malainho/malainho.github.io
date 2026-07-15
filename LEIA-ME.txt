@@ -1,0 +1,39 @@
+ATUALIZAÇÃO DO SITE — Integração dos vídeos
+============================================
+
+Este zip contém TODOS os ficheiros novos e alterados.
+Basta arrastar tudo do Finder para o GitHub (Add file →
+Upload files) e confirmar com Commit changes — os ficheiros
+existentes serão substituídos pelas versões novas.
+
+Conteúdo:
+
+  video-pt/index.html         NOVO  — página de vídeo em português
+  video-en/index.html         NOVO  — página de vídeo em inglês
+  video-fr/index.html         NOVO  — página de vídeo em francês
+  agrandedescoberta/index.html  ALTERADO — ícone de player no cabeçalho
+  thegreatdiscovery/index.html  ALTERADO — ícone de player no cabeçalho
+  lagrandedecouverte/index.html ALTERADO — ícone de player no cabeçalho
+  style.css                   ALTERADO — estilos das páginas de vídeo
+  sitemap.xml                 ALTERADO — 3 páginas de vídeo acrescentadas
+
+O que muda para o visitante:
+
+  - Nas três páginas de texto aparece um ícone de player no
+    cabeçalho (entre a barra de línguas e o botão de tema),
+    que leva ao vídeo da mesma língua.
+  - Nas páginas de vídeo, a barra de línguas liga às páginas
+    de vídeo das outras línguas, e o ícone de livro volta ao
+    texto da mesma língua.
+  - O vídeo mostra a miniatura do YouTube e só carrega o
+    player ao clicar (mais rápido, sem cookies antes do clique).
+
+Depois de publicar (1–2 minutos), testar:
+
+  https://malainho.github.io/agrandedescoberta/  → ícone player
+  https://malainho.github.io/video-pt/           → vídeo PT
+  https://malainho.github.io/video-en/           → vídeo EN
+  https://malainho.github.io/video-fr/           → vídeo FR
+
+Nota: no Google Search Console, podes reenviar o sitemap.xml
+para acelerar a indexação das páginas novas.

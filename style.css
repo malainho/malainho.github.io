@@ -120,3 +120,92 @@ footer a { color:var(--muted); }
 a:focus-visible, .lang-card:focus-visible, .dl-btn:focus-visible, .theme-toggle:focus-visible { outline:2px solid var(--ink); outline-offset:3px; }
 @media (max-width:34rem) { body { font-size:1.02rem; } .title-block { padding-top:2.5rem; } .reading p.dialogue { padding-left:.7rem; } }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior:auto; transition:none !important; } }
+
+/* ============================================================
+   Páginas de vídeo (fase 3) + ícone de player no cabeçalho
+   ============================================================ */
+
+/* Botão-ícone genérico no cabeçalho (voltar ao texto / ir para vídeo) */
+.icon-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 2rem; height: 2rem; border-radius: 999px;
+  border: 1px solid var(--rule); color: var(--ink);
+  text-decoration: none;
+  transition: border-color .15s ease, color .15s ease;
+}
+.icon-btn:hover { border-color: var(--ink); }
+.icon-btn svg { width: 1.05rem; height: 1.05rem; display: block; }
+
+/* Ícone de player no cabeçalho das páginas de texto */
+.player-btn { color: var(--ink); }
+.player-btn svg { width: 1.15rem; height: 1.15rem; }
+
+/* Página de vídeo */
+.video-main { padding-bottom: 2rem; }
+.video-section { margin-top: 1rem; }
+.video-heading {
+  font-family: 'Poppins', system-ui, sans-serif;
+  font-weight: 600; font-size: 1.15rem; color: var(--ink);
+  text-align: center; margin: 0 0 .4rem;
+}
+.video-sub {
+  text-align: center; color: var(--muted); font-size: .95rem;
+  margin: 0 0 2rem;
+}
+
+/* Moldura 16:9 responsiva */
+.video-frame {
+  position: relative; width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 14px; overflow: hidden;
+  background: var(--panel);
+  border: 1px solid var(--rule);
+}
+/* Fallback para navegadores sem aspect-ratio */
+@supports not (aspect-ratio: 16 / 9) {
+  .video-frame { padding-top: 56.25%; height: 0; }
+  .video-frame > * { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+}
+
+/* Miniatura (facade) com botão de play */
+.video-facade {
+  position: absolute; inset: 0;
+  background-size: cover; background-position: center;
+  cursor: pointer; border: 0;
+  display: flex; align-items: center; justify-content: center;
+}
+.video-facade::after {
+  content: ""; position: absolute; inset: 0;
+  background: rgba(20,20,30,.28);
+  transition: background .2s ease;
+}
+.video-facade:hover::after { background: rgba(20,20,30,.16); }
+.video-facade:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+
+.video-play {
+  position: relative; z-index: 1;
+  width: 68px; height: 48px;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,.35));
+  transition: transform .15s ease;
+}
+.video-facade:hover .video-play { transform: scale(1.06); }
+.video-play svg { width: 100%; height: 100%; display: block; }
+.video-play .pl-bg { fill: #1a1a2e; opacity: .92; }
+.video-facade:hover .video-play .pl-bg { fill: #cc2b2b; opacity: 1; }
+
+/* Iframe carregado após clique */
+.video-iframe {
+  position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
+}
+
+.video-back {
+  text-align: center; margin: 1.6rem 0 0;
+  font-family: 'Poppins', system-ui, sans-serif; font-size: .85rem;
+}
+.video-back a { color: var(--muted); text-decoration: none; }
+.video-back a:hover { color: var(--ink); text-decoration: underline; }
+
+@media (max-width: 34rem) {
+  .video-frame { border-radius: 10px; }
+  .video-play { width: 56px; height: 40px; }
+}
