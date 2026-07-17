@@ -1,44 +1,29 @@
-DO VÍDEO PARA O ÁUDIO + PODCAST
-================================
+PÁGINA DE LINKS EXTERNOS
+=========================
 
 Arrastar TUDO para o GitHub (Add file → Upload files → Commit).
-Nada precisa de ser apagado — as antigas páginas de vídeo
-passam a redirecionar automaticamente para as de áudio.
+Nada precisa de ser apagado.
 
 Conteúdo:
 
-  audio-pt/  audio-en/  audio-fr/   NOVAS — páginas com leitor de áudio
-  video-pt/  video-en/  video-fr/   ALTERADAS — redirecionam para o áudio
-  agrandedescoberta/index.html      ALTERADA — ícone leva ao áudio
-  thegreatdiscovery/index.html      ALTERADA — ícone leva ao áudio
-  lagrandedecouverte/index.html     ALTERADA — ícone leva ao áudio
-  style.css                         ALTERADO — estilos do leitor de áudio
-  sitemap.xml                       ALTERADO — audio-* em vez de video-*
-  podcast/feed.xml                  NOVO — feed RSS do podcast
+  links/index.html              NOVA — página de Links Externos
+  index.html (home)             ALTERADA — ícone de links na topbar
+  agrandedescoberta/index.html  ALTERADA — ícone de links no cabeçalho
+  thegreatdiscovery/index.html  ALTERADA — ícone de links no cabeçalho
+  lagrandedecouverte/index.html ALTERADA — ícone de links no cabeçalho
+  audio-pt/index.html           ALTERADA — ícone de links no cabeçalho
+  audio-en/index.html           ALTERADA — ícone de links no cabeçalho
+  audio-fr/index.html           ALTERADA — ícone de links no cabeçalho
+  style.css                     ALTERADO — estilos da página de links
+  sitemap.xml                   ALTERADO — /links/ acrescentado
 
-DUAS COISAS A FAZER NO FEED ANTES DE SUBMETER O PODCAST:
+A página inclui as 11 fontes oficiais:
+  Ler:   Zenodo (DOI) · Internet Archive
+  Ver:   YouTube (PT · EN · FR)
+  Ouvir: Spotify (PT · EN · FR) · Apple Podcasts (PT · EN · FR)
 
-  1. Editar podcast/feed.xml e substituir EMAIL_AQUI pelo teu
-     e-mail (a Apple exige um e-mail de contacto do dono).
-  2. Colocar a capa em podcast/cover.jpg — imagem QUADRADA,
-     ideal 3000×3000 px, mínimo 1400×1400, JPG ou PNG.
-     Sem a capa, o Spotify e a Apple rejeitam o feed.
-
-SUBMETER O PODCAST (depois dos dois pontos acima):
-
-  Feed: https://malainho.github.io/podcast/feed.xml
-
-  Spotify → https://creators.spotify.com  (Get Started →
-    Add your podcast → colar o feed)
-  Apple  → https://podcastsconnect.apple.com  (entrar com
-    Apple ID → + → Add a show with an RSS feed)
-
-TESTAR NO SITE (após 1-2 min de publicação):
-
-  https://malainho.github.io/audio-pt/
-  https://malainho.github.io/audio-en/
-  https://malainho.github.io/audio-fr/
-  https://malainho.github.io/video-pt/  (deve saltar para o áudio)
-
-Nota: os vídeos no YouTube não são afetados — continuam no
-canal como via alternativa, simplesmente já não aparecem no site.
+DEPOIS DE PUBLICAR:
+  1. Testar https://malainho.github.io/links/ e o ícone
+     (caixa com seta) no cabeçalho de todas as páginas
+  2. Google Search Console → Sitemaps → reenviar sitemap.xml
+     (para indexar as páginas de áudio e a de links)

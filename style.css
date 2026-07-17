@@ -101,7 +101,7 @@ footer p { font-family:'Poppins',system-ui,sans-serif; font-size:.8rem; color:va
 footer a { color:var(--muted); }
 
 .landing { min-height:100vh; display:flex; flex-direction:column; }
-.landing .topbar { display:flex; justify-content:flex-end; padding:1rem 1.5rem 0; }
+.landing .topbar { display:flex; justify-content:flex-end; align-items:center; gap:.55rem; padding:1rem 1.5rem 0; }
 .landing .hero { flex:1; display:flex; align-items:center; justify-content:center; text-align:center; padding:2rem 1.5rem 3rem; }
 .landing .hero-inner { max-width:40rem; }
 .landing .eyebrow { font-family:'Poppins',system-ui,sans-serif; font-size:.74rem; letter-spacing:.22em; text-transform:uppercase; color:var(--faint); margin:0 0 1.4rem; }
@@ -227,3 +227,39 @@ a:focus-visible, .lang-card:focus-visible, .dl-btn:focus-visible, .theme-toggle:
 @media (max-width: 34rem) {
   .audio-box { border-radius: 10px; padding: 1.1rem .9rem .8rem; }
 }
+
+/* ---------- Página de Links Externos ---------- */
+.ext-section { margin: 2.6rem 0; }
+.ext-heading {
+  font-family: 'Poppins', system-ui, sans-serif;
+  font-size: 1.05rem; font-weight: 600; color: var(--ink);
+  margin: 0 0 1rem; letter-spacing: .01em;
+}
+.ext-heading .ext-tr { font-weight: 400; color: var(--faint); font-size: .85rem; }
+.ext-list { display: flex; flex-direction: column; gap: .8rem; }
+.ext-item {
+  display: block; position: relative;
+  background: var(--panel); border: 1px solid var(--rule); border-radius: 12px;
+  padding: 1.05rem 3rem 1.05rem 1.15rem;
+  text-decoration: none; color: inherit;
+  transition: border-color .15s ease;
+}
+a.ext-item:hover { border-color: var(--ink); }
+.ext-name {
+  display: block; font-family: 'Poppins', system-ui, sans-serif;
+  font-weight: 600; font-size: .98rem; color: var(--ink); margin-bottom: .2rem;
+}
+.ext-note { display: block; font-size: .84rem; color: var(--muted); line-height: 1.55; }
+.ext-arrow {
+  position: absolute; top: 1.15rem; right: 1.05rem;
+  width: 1rem; height: 1rem; color: var(--faint);
+}
+a.ext-item:hover .ext-arrow { color: var(--ink); }
+.ext-langs { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .7rem; }
+.ext-langs a {
+  font-family: 'Poppins', system-ui, sans-serif; font-size: .8rem;
+  color: var(--ink); text-decoration: none;
+  border: 1px solid var(--rule); border-radius: 999px;
+  padding: .3rem .85rem; transition: border-color .15s ease;
+}
+.ext-langs a:hover { border-color: var(--ink); }
