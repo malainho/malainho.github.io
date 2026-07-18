@@ -263,3 +263,39 @@ a.ext-item:hover .ext-arrow { color: var(--ink); }
   padding: .3rem .85rem; transition: border-color .15s ease;
 }
 .ext-langs a:hover { border-color: var(--ink); }
+
+/* ---------- Percurso ---------- */
+.trail-note {
+  background: var(--panel); border: 1px solid var(--rule);
+  border-left: 3px solid var(--ink);
+  border-radius: 10px; padding: 1rem 1.2rem; margin: 1.8rem 0;
+  font-size: .9rem;
+}
+.trail-note p { margin: 0 0 .5rem; }
+.trail-note p:last-child { margin: 0; }
+.trail-note .trail-start {
+  font-family: 'Poppins', system-ui, sans-serif; font-weight: 600;
+  font-size: .85rem; color: var(--ink); text-decoration: none;
+}
+.trail-note .trail-start:hover { text-decoration: underline; }
+.trail-note-end { margin-top: 2.4rem; }
+.trail-source { font-size: .84rem; color: var(--muted); margin: 2.2rem 0; text-align: center; }
+.trail-source a { color: var(--ink); }
+.trail-nav {
+  display: flex; justify-content: space-between; gap: 1rem;
+  margin: 2.6rem 0 1rem; flex-wrap: wrap;
+}
+.trail-nav a {
+  flex: 1 1 16rem; display: block; text-decoration: none;
+  background: var(--panel); border: 1px solid var(--rule); border-radius: 12px;
+  padding: .9rem 1.1rem; transition: border-color .15s ease;
+}
+.trail-nav a:hover { border-color: var(--ink); }
+.trail-nav .trail-next { text-align: right; margin-left: auto; }
+.trail-dir {
+  display: block; font-family: 'Poppins', system-ui, sans-serif;
+  font-size: .72rem; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--faint); margin-bottom: .25rem;
+}
+.trail-t { display: block; font-family: 'Poppins', system-ui, sans-serif;
+  font-weight: 600; font-size: .92rem; color: var(--ink); }

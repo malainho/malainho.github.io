@@ -1,29 +1,26 @@
-PÁGINA DE LINKS EXTERNOS
-=========================
+PERCURSO — 22 páginas temáticas (Português)
+============================================
 
 Arrastar TUDO para o GitHub (Add file → Upload files → Commit).
 Nada precisa de ser apagado.
 
 Conteúdo:
+  percurso/                  NOVA — 22 páginas, da porta de entrada
+                             (O nada existe?) ao fecho (E se todos
+                             soubessem que a reencarnação existe?)
+  style.css                  ALTERADO — estilos do percurso
+  sitemap.xml                ALTERADO — as 22 páginas acrescentadas
 
-  links/index.html              NOVA — página de Links Externos
-  index.html (home)             ALTERADA — ícone de links na topbar
-  agrandedescoberta/index.html  ALTERADA — ícone de links no cabeçalho
-  thegreatdiscovery/index.html  ALTERADA — ícone de links no cabeçalho
-  lagrandedecouverte/index.html ALTERADA — ícone de links no cabeçalho
-  audio-pt/index.html           ALTERADA — ícone de links no cabeçalho
-  audio-en/index.html           ALTERADA — ícone de links no cabeçalho
-  audio-fr/index.html           ALTERADA — ícone de links no cabeçalho
-  style.css                     ALTERADO — estilos da página de links
-  sitemap.xml                   ALTERADO — /links/ acrescentado
-
-A página inclui as 11 fontes oficiais:
-  Ler:   Zenodo (DOI) · Internet Archive
-  Ver:   YouTube (PT · EN · FR)
-  Ouvir: Spotify (PT · EN · FR) · Apple Podcasts (PT · EN · FR)
+Como funciona:
+  - Entrada: https://malainho.github.io/percurso/
+  - Cada página: aviso de percurso no topo (exceto a 1.ª),
+    introdução, excerto contínuo da obra, link para ler e
+    ouvir a obra completa, convite final ao início (exceto
+    a 1.ª) e navegação Anterior/Próximo
+  - Sem índice público: dentro do site só se navega por ordem
+  - Google: todas as páginas no sitemap, indexáveis uma a uma
 
 DEPOIS DE PUBLICAR:
-  1. Testar https://malainho.github.io/links/ e o ícone
-     (caixa com seta) no cabeçalho de todas as páginas
-  2. Google Search Console → Sitemaps → reenviar sitemap.xml
-     (para indexar as páginas de áudio e a de links)
+  1. Testar https://malainho.github.io/percurso/ e navegar
+     com Próximo até ao fim (22 passos)
+  2. Search Console → Sitemaps → reenviar sitemap.xml
