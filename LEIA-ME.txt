@@ -1,26 +1,25 @@
-PERCURSO — 22 páginas temáticas (Português)
-============================================
+PERCURSO-PT — versão corrigida
+===============================
 
-Arrastar TUDO para o GitHub (Add file → Upload files → Commit).
-Nada precisa de ser apagado.
+PASSO 1 — Apagar a pasta antiga "percurso"
+-------------------------------------------
+No GitHub, entra na pasta "percurso" → botão "..." no canto
+superior direito → "Delete directory" → Commit changes.
+(Apaga a pasta inteira de uma vez.)
 
-Conteúdo:
-  percurso/                  NOVA — 22 páginas, da porta de entrada
-                             (O nada existe?) ao fecho (E se todos
-                             soubessem que a reencarnação existe?)
-  style.css                  ALTERADO — estilos do percurso
-  sitemap.xml                ALTERADO — as 22 páginas acrescentadas
+PASSO 2 — Enviar o novo conteúdo
+---------------------------------
+Arrastar para o GitHub (Add file → Upload files → Commit):
 
-Como funciona:
-  - Entrada: https://malainho.github.io/percurso/
-  - Cada página: aviso de percurso no topo (exceto a 1.ª),
-    introdução, excerto contínuo da obra, link para ler e
-    ouvir a obra completa, convite final ao início (exceto
-    a 1.ª) e navegação Anterior/Próximo
-  - Sem índice público: dentro do site só se navega por ordem
-  - Google: todas as páginas no sitemap, indexáveis uma a uma
+  percurso-pt/   NOVA — as 22 páginas com as correções:
+                 · ícones de Ler e Ouvir a obra no cabeçalho
+                 · linha de fonte só com o título principal
+  sitemap.xml    ALTERADO — /percurso/ → /percurso-pt/
 
-DEPOIS DE PUBLICAR:
-  1. Testar https://malainho.github.io/percurso/ e navegar
-     com Próximo até ao fim (22 passos)
-  2. Search Console → Sitemaps → reenviar sitemap.xml
+(O style.css não muda — já tem os estilos do percurso.)
+
+PASSO 3 — Testar
+-----------------
+  https://malainho.github.io/percurso-pt/
+  Navegar com "Próximo" e confirmar os dois ícones novos
+  no topo de qualquer página.
