@@ -1,14 +1,15 @@
-PERCURSO-EN — The Great Discovery, 22 páginas
-==============================================
+PERCURSO-FR — La Grande Découverte, 22 páginas
+===============================================
 
 Arrastar TUDO para o GitHub (Add file → Upload files → Commit).
 Nada precisa de ser apagado.
 
-  percurso-en/   NOVA — 22 páginas em inglês, de
-                 "Does nothingness exist?" a
-                 "What if everyone knew that reincarnation exists?"
-  sitemap.xml    ALTERADO — as 22 páginas inglesas acrescentadas
+  percurso-fr/   NOVA — 22 páginas em francês, de
+                 "Le néant existe-t-il ?" a
+                 "Et si tout le monde savait que la réincarnation existe ?"
+  sitemap.xml    ALTERADO — as 22 páginas francesas acrescentadas
+                 (total do site: 88 páginas)
 
-Entrada: https://malainho.github.io/percurso-en/
-Testar navegando com "Next" até ao fim.
+Entrada: https://malainho.github.io/percurso-fr/
+Testar navegando com "Suivant" até ao fim.
 Depois: Search Console → reenviar sitemap.xml.
