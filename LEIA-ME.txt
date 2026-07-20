@@ -1,15 +1,17 @@
-PERCURSO-FR — La Grande Découverte, 22 páginas
-===============================================
+ÍCONE DO PERCURSO NOS CABEÇALHOS
+=================================
 
 Arrastar TUDO para o GitHub (Add file → Upload files → Commit).
-Nada precisa de ser apagado.
+Substitui as 7 páginas existentes; a home NÃO é alterada.
 
-  percurso-fr/   NOVA — 22 páginas em francês, de
-                 "Le néant existe-t-il ?" a
-                 "Et si tout le monde savait que la réincarnation existe ?"
-  sitemap.xml    ALTERADO — as 22 páginas francesas acrescentadas
-                 (total do site: 88 páginas)
+  agrandedescoberta/  → ícone leva a /percurso-pt/
+  thegreatdiscovery/  → ícone leva a /percurso-en/
+  lagrandedecouverte/ → ícone leva a /percurso-fr/
+  audio-pt/ -en/ -fr/ → idem, por língua
+  links/              → ícone leva a /percurso-pt/
 
-Entrada: https://malainho.github.io/percurso-fr/
-Testar navegando com "Suivant" até ao fim.
-Depois: Search Console → reenviar sitemap.xml.
+O ícone é o símbolo de rota (dois pontos ligados por um
+caminho) e fica entre os ícones existentes e o de links
+externos. Nada mais muda; o CSS já cobre tudo.
+
+Testar: abrir qualquer página e clicar no novo ícone.
