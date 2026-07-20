@@ -299,19 +299,3 @@ a.ext-item:hover .ext-arrow { color: var(--ink); }
 }
 .trail-t { display: block; font-family: 'Poppins', system-ui, sans-serif;
   font-weight: 600; font-size: .92rem; color: var(--ink); }
-
-/* ---------- Cabeçalho em ecrãs estreitos: nunca quebrar linha ---------- */
-@media (max-width: 40rem) {
-  .masthead .wrap { flex-wrap: nowrap; gap: .5rem; }
-  .masthead .home {
-    flex: 1 1 auto; min-width: 0;
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  }
-  .masthead .right { flex: 0 0 auto; gap: .35rem; }
-  .langbar { font-size: .72rem; }
-  .langbar a { padding: .2rem .38rem; }
-  .icon-btn { width: 28px; height: 28px; }
-  .icon-btn svg { width: 17px; height: 17px; }
-  .theme-toggle { width: 1.8rem; height: 1.8rem; }
-  .theme-toggle svg { width: .95rem; height: .95rem; }
-}
