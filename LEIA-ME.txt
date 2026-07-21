@@ -1,30 +1,9 @@
-CONTACTO + DADOS ESTRUTURADOS (SEO)
-====================================
+CONTACTO — ícones adicionados
+==============================
 
-Arrastar TUDO para o GitHub (Add file → Upload files → Commit).
-Nada precisa de ser apagado. A home e a página de Links
-Externos NÃO são alteradas.
+Substitui as três páginas de contacto (arrastar → Commit).
+Cada uma passa a ter no cabeçalho, além da barra de línguas
+e do tema, os ícones de Ler, Ouvir e Percurso da obra — todos
+apontando à língua da própria página.
 
-  contacto-pt/ -en/ -fr/     NOVAS — páginas de contacto com
-                             botão que abre o Google Forms da
-                             língua num novo separador
-  agrandedescoberta/         ALTERADA — ícone de envelope +
-                             dados estruturados (Book/Schema.org)
-  thegreatdiscovery/         ALTERADA — idem
-  lagrandedecouverte/        ALTERADA — idem
-  audio-pt/ -en/ -fr/        ALTERADAS — ícone de envelope
-  style.css                  ALTERADO — estilos do contacto
-  sitemap.xml                ALTERADO — 77 páginas
-
-Os dados estruturados declaram ao Google que cada página de
-texto é um LIVRO deste autor, com DOI, licença CC BY-NC-ND,
-gratuito, e ligado ao Zenodo, Archive, YouTube, Spotify e
-Apple — ajuda a distinguir a obra da série de TV homónima.
-
-TESTAR depois de publicar:
-  https://malainho.github.io/contacto-pt/  (+ -en, -fr)
-  O envelope no cabeçalho das páginas de texto e áudio
-  Enviar uma mensagem de teste por cada formulário
-Search Console: reenviar sitemap.xml.
-Validador de dados estruturados (opcional):
-  https://validator.schema.org — colar o URL da página PT
+  contacto-pt/  contacto-en/  contacto-fr/
