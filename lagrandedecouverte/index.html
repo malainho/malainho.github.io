@@ -19,6 +19,41 @@
   <script>
     (function(){try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light'){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "La Grande Découverte",
+    "alternateName": "A Grande Descoberta / A Grande Escolha",
+    "author": {
+      "@type": "Person",
+      "name": "César Manuel Malainho de Oliveira"
+    },
+    "inLanguage": "fr",
+    "url": "https://malainho.github.io/lagrandedecouverte/",
+    "bookFormat": "https://schema.org/EBook",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.5281/zenodo.21316208"
+    },
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "isAccessibleForFree": true,
+    "sameAs": [
+      "https://zenodo.org/records/21316208",
+      "https://archive.org/details/a-grande-descoberta_202607",
+      "https://www.youtube.com/watch?v=39L_SjwtzK4",
+      "https://open.spotify.com/show/033Q08pTuZ6FeCoPddSorJ",
+      "https://podcasts.apple.com/podcast/la-grande-d%C3%A9couverte/id6791610104"
+    ],
+    "translationOfWork": {
+      "@type": "Book",
+      "name": "A Grande Descoberta",
+      "url": "https://malainho.github.io/agrandedescoberta/",
+      "inLanguage": "pt"
+    }
+  }
+  </script>
 </head>
 <body>
   <header class="masthead">
@@ -38,6 +73,9 @@
         </a>
         <a class="icon-btn" href="../links/" aria-label="Liens externes" title="Liens externes">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+        <a class="icon-btn" href="../contacto-fr/" aria-label="Contact" title="Contact">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
         </a>
         <button class="theme-toggle" type="button" onclick="__toggleTheme()" aria-label="Basculer le thème clair/sombre" title="Basculer le thème clair/sombre">
           <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>

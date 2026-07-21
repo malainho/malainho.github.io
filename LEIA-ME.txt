@@ -1,17 +1,30 @@
-ÍCONE DO PERCURSO NOS CABEÇALHOS
-=================================
+CONTACTO + DADOS ESTRUTURADOS (SEO)
+====================================
 
 Arrastar TUDO para o GitHub (Add file → Upload files → Commit).
-Substitui as 7 páginas existentes; a home NÃO é alterada.
+Nada precisa de ser apagado. A home e a página de Links
+Externos NÃO são alteradas.
 
-  agrandedescoberta/  → ícone leva a /percurso-pt/
-  thegreatdiscovery/  → ícone leva a /percurso-en/
-  lagrandedecouverte/ → ícone leva a /percurso-fr/
-  audio-pt/ -en/ -fr/ → idem, por língua
-  links/              → ícone leva a /percurso-pt/
+  contacto-pt/ -en/ -fr/     NOVAS — páginas de contacto com
+                             botão que abre o Google Forms da
+                             língua num novo separador
+  agrandedescoberta/         ALTERADA — ícone de envelope +
+                             dados estruturados (Book/Schema.org)
+  thegreatdiscovery/         ALTERADA — idem
+  lagrandedecouverte/        ALTERADA — idem
+  audio-pt/ -en/ -fr/        ALTERADAS — ícone de envelope
+  style.css                  ALTERADO — estilos do contacto
+  sitemap.xml                ALTERADO — 77 páginas
 
-O ícone é o símbolo de rota (dois pontos ligados por um
-caminho) e fica entre os ícones existentes e o de links
-externos. Nada mais muda; o CSS já cobre tudo.
+Os dados estruturados declaram ao Google que cada página de
+texto é um LIVRO deste autor, com DOI, licença CC BY-NC-ND,
+gratuito, e ligado ao Zenodo, Archive, YouTube, Spotify e
+Apple — ajuda a distinguir a obra da série de TV homónima.
 
-Testar: abrir qualquer página e clicar no novo ícone.
+TESTAR depois de publicar:
+  https://malainho.github.io/contacto-pt/  (+ -en, -fr)
+  O envelope no cabeçalho das páginas de texto e áudio
+  Enviar uma mensagem de teste por cada formulário
+Search Console: reenviar sitemap.xml.
+Validador de dados estruturados (opcional):
+  https://validator.schema.org — colar o URL da página PT
